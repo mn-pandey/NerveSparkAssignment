@@ -49,7 +49,7 @@ function generateDealership() {
 // Generate dummy data for the car model
 function generateCar() {
   const type = faker.vehicle.type();
-  const name = faker.random.word(); // Generate a random word instead of using faker.vehicle.make()
+  const name = faker.random.word(); 
   const model = faker.vehicle.model();
   const carInfo = {}; // Additional car information
 
